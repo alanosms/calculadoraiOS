@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+
+.iphone-container{
+    display: flex;
+    background: rgb(218, 213, 213);
+    width: 400px;
+    height: 850px;
+    position: relative;
+    border-radius: 35px;
+    border: 20px solid rgb(29, 29, 29);
+}
+
+.iphone-container .notch{
+    z-index: 4;
+    background: rgb(29, 29, 29);;
+    width: 150px;
+    height: 22px;
+    margin: 0 auto;
+    border-radius: 0 0 30px 30px;
+}
+.iphone-container .iphone-menu{
+    background: rgb(241, 227, 227);;
+    position: absolute;
+    width: 150px;
+    height: 5px;
+    border-radius: 8px;
+    margin: 0 105px;
+    bottom: 15px;
+}
