@@ -3,7 +3,9 @@ let operator = 0;
  function add(input) {
    visor.value = visor.value + input;
  }
-
+ function invert(){
+   visor.value = visor.value * -1;
+ }
  function clearall() {
    visor.value = "";
  }
