@@ -54,6 +54,8 @@ body{
     font-size: 60px;
 }
 .output{
+    color: white;
+    font-size: 60px;
     border: 0px;
     background-color: black;
     text-align: right;
@@ -68,7 +70,6 @@ body{
     background-color: #343434;
     border: none;
     border-radius: 50%;
-    padding: 5px;
     width: 70px;
     height: 70px;
     
@@ -81,6 +82,10 @@ body{
     border-radius: 50%;
     width: 70px;
     height: 70px;
+}
+.operator:focus{
+    background-color: white;
+    color: #FD9804;
 }
 #perc, #clear, #moreless, #percentage{
     color: #343434;
