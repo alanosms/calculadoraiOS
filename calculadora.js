@@ -6,6 +6,9 @@ let operator = 0;
  function invert(){
    visor.value = visor.value * -1;
  }
+ function percertage(){
+   visor.value = visor.value / 100;
+ }
  function clearall() {
    visor.value = "";
  }
