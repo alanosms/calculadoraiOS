@@ -15,7 +15,7 @@ let operator = 0;
    switch (operator){
      case(1):{
       console.log(' '+num1+ '+' +num2);
-      result = num1 + num2;
+      result = Number(num1) + Number(num2);
       visor.value = result;
       break;
      }
